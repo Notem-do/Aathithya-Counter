@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    margin: 30px;
+    color:aqua
+}
+body{
+    background-image: url("./Untitled_page-0001.jpg");
+    background-position:center;
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.counter{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+#increment-btn{
+    height: 100px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-image: url("./up.png");
+    background-position:center;
+    background-size:cover;
+    border: 2px solid #ff00ea;
+    margin: 20px;
+}
+#decrement-btn{
+    height: 100px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-image:url("./down.png");
+    background-position:center;
+    background-size:cover;
+    border: 2px solid #2e8d46;
+    margin: 20px;
+}
+#reset{
+    height: 50px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: #2e8d46;
+    border: 2px solid #2e8d46;
+    color: white;
+    margin: 20px;
+}
+#reset{
+    height:250px;
+    width:250px;
+    background-image:url("./WhatsApp_Image_2023-06-27_at_1.10.30_PM-removebg-preview.png");
+    background-size:auto;
+    background-position:center
+}
+#counter-value{
+    height: 50px;
+    min-width: 120px;
+    border-radius: 10px;
+    background-color: rgb(200, 255, 0);
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Ding{
+    height:100px;
+    min-width:500px;
+    border-radius: 10px;
+    font-size:50px;
+    color:aquamarine;
+    background-color:yellow;
+}
